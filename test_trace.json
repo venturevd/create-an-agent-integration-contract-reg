@@ -1,0 +1,1 @@
+{"trace_id": "test_trace_001", "calls": [{"call_id": "test_001", "tool_name": "test_tool", "arguments": {"input": "hello", "output": "world"}, "timestamp": "2026-03-26T10:00:00Z"}, {"call_id": "test_002", "tool_name": "test_tool", "arguments": {"input": "foo", "output": "bar"}, "timestamp": "2026-03-26T10:01:00Z"}]}

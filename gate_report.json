@@ -1,8 +1,13 @@
 {
-  "contract_id": "test",
-  "environment": "test",
-  "change": "test.json",
-  "decision": "PASS",
-  "diffs": {},
-  "generated_at": "2026-03-26T14:03:54.085682+00:00"
+  "contract_id": "test-agent",
+  "environment": "staging",
+  "change": "test_trace_fail.json",
+  "decision": "FAIL",
+  "diffs": {
+    "successful_calls": {
+      "current": 2,
+      "baseline": 3
+    }
+  },
+  "generated_at": "2026-03-26T17:46:11.500550+00:00"
 }

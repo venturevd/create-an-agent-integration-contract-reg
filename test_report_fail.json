@@ -1,0 +1,58 @@
+{
+  "total_calls": 2,
+  "successful_calls": 2,
+  "failed_calls": 0,
+  "schema_violations": [],
+  "idempotency_violations": [],
+  "side_effect_detections": [],
+  "registration_errors": [],
+  "call_results": [
+    {
+      "call": {
+        "call_id": "test_001",
+        "tool_name": "test_tool",
+        "arguments": {
+          "input": "hello",
+          "output": "wrong"
+        },
+        "timestamp": "2026-03-26T10:00:00Z",
+        "trace_id": null
+      },
+      "success": true,
+      "output": {
+        "_mock": true,
+        "input": "mocked_input",
+        "output": "mocked_output"
+      },
+      "error": null,
+      "tool_version": "mock",
+      "output_valid": true,
+      "validation_errors": [],
+      "is_idempotent": true
+    },
+    {
+      "call": {
+        "call_id": "test_002",
+        "tool_name": "test_tool",
+        "arguments": {
+          "input": "foo",
+          "output": "bar"
+        },
+        "timestamp": "2026-03-26T10:01:00Z",
+        "trace_id": null
+      },
+      "success": true,
+      "output": {
+        "_mock": true,
+        "input": "mocked_input",
+        "output": "mocked_output"
+      },
+      "error": null,
+      "tool_version": "mock",
+      "output_valid": true,
+      "validation_errors": [],
+      "is_idempotent": true
+    }
+  ],
+  "generated_at": "2026-03-26T14:42:02.913886+00:00"
+}

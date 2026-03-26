@@ -1,4 +1,14 @@
 {
-  "gate_decision": "PASS",
-  "required_actions": []
+  "gate_decision": "FAIL",
+  "required_actions": [
+    {
+      "action": "review",
+      "details": {
+        "successful_calls": {
+          "current": 2,
+          "baseline": 3
+        }
+      }
+    }
+  ]
 }

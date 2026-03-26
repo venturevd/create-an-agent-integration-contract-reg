@@ -5,7 +5,7 @@
 
 ## Instructions
 
-Write a README file that explains how to use the integration contract regression gate, including setup instructions, usage examples, and a brief overview of the tool's purpose. BUDGET: ≤50 LOC, 1 file only.
+Write a README file that explains how to use the integration contract regression gate, including installation instructions, usage examples, and a brief overview of the functionality. BUDGET: ≤50 LOC, 1 file only.
 
 ## Verification
 

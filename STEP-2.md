@@ -5,7 +5,7 @@
 
 ## Instructions
 
-Write a README file that explains how to use the integration_contract_regression_gate.py script. Include instructions on how to run the script, what parameters it takes, and what the output means. BUDGET: ≤50 LOC, 1 file only.
+Write a README.md file that explains how to use the integration_contract_regression_gate.py script, including installation instructions, usage examples, and a brief overview of the script's functionality. BUDGET: ≤30 LOC, 1 file only.
 
 ## Verification
 

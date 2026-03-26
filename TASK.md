@@ -19,6 +19,8 @@ Acceptance criteria:
 ## Relevant Existing Artifacts (import/extend if useful)
 
 ## Relevant existing artifacts (check before building):
+  - **create-an-agent-integration-contract-reg** (similarity 67%)
+    A lightweight CLI tool that decides whether proposed agent/tool integration changes are safe to proceed. It acts as a gatekeeper for CI/CD pipelines a
   - **implement-an-integration-contract-eviden** (similarity 57%)
     A CLI tool that collects and packages evidence proving that an agent-tool integration is correct and safe in a specific deployment context. It normali
   - **implement-an-agent-integration-rollback** (similarity 56%)
@@ -27,8 +29,6 @@ Acceptance criteria:
     A CLI tool that validates agent-to-tool interfaces **before runtime** by linting tool specs against the shared [`agent-tool-spec`](https://github.com/
   - **create-an-integration-contract-sampler-f** (similarity 51%)
     Generates compact, randomized-but-deterministic integration test cases for agent toolchains.
-  - **implement-an-agent-fallback-decision-pol** [has tests] (similarity 51%)
-    A small library+CLI that determines what an agent should do when its primary tool (or integration) is unavailable, slow, or contract-invalid. It conve
 
 ## Related completed tasks:
   - Create an Integration Contract Sampler for Agent Toolchains
